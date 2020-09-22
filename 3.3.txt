@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float x,f,y,a,b;
+    printf("x=");
+    scanf("%f",&x);
+    printf("y=");
+    scanf("%f",&y);
+    a=pow(x,2)+pow(y,2);
+    b=sqrt(x-y);
+    if (a<=0 || b<=0)
+    {
+        printf("У відповіді від'ємне число  ");
+    }
+    else
+    {
+        f=a/b;
+        printf("a = %f",f);
+            
+        
+    }
+    
+}
